@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A02498DD20A0B3A300FA01F6 /* OrderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02498DC20A0B3A200FA01F6 /* OrderData.swift */; };
 		A032B281209F3BBA000B4611 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A032B280209F3BBA000B4611 /* AppDelegate.swift */; };
-		A032B283209F3BBA000B4611 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A032B282209F3BBA000B4611 /* ViewController.swift */; };
 		A032B286209F3BBA000B4611 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A032B284209F3BBA000B4611 /* Main.storyboard */; };
 		A032B288209F3BBB000B4611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A032B287209F3BBB000B4611 /* Assets.xcassets */; };
 		A032B28B209F3BBB000B4611 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A032B289209F3BBB000B4611 /* LaunchScreen.storyboard */; };
+		A032B295209F3E09000B4611 /* genkai-mincho.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A032B294209F3E09000B4611 /* genkai-mincho.ttf */; };
+		A032B29D209F6318000B4611 /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A032B29C209F6318000B4611 /* OrderTableViewController.swift */; };
+		A032B29F209F6355000B4611 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A032B29E209F6355000B4611 /* MainViewController.swift */; };
+		A032B2A1209F6E3C000B4611 /* OrderListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A032B2A0209F6E3C000B4611 /* OrderListViewController.swift */; };
+		A05466B820A1DB6C001B05BE /* TeaList.txt in Resources */ = {isa = PBXBuildFile; fileRef = A05466B720A1DB6C001B05BE /* TeaList.txt */; };
+		A076A51A20A49B4700D266E1 /* OrderListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A076A51920A49B4700D266E1 /* OrderListTableViewCell.swift */; };
+		A08885D920A884E8007FA849 /* EditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08885D820A884E8007FA849 /* EditTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A02498DC20A0B3A200FA01F6 /* OrderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderData.swift; sourceTree = "<group>"; };
 		A032B27D209F3BBA000B4611 /* DemoFreeDrinks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoFreeDrinks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A032B280209F3BBA000B4611 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A032B282209F3BBA000B4611 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A032B285209F3BBA000B4611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A032B287209F3BBB000B4611 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A032B28A209F3BBB000B4611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A032B28C209F3BBB000B4611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A032B294209F3E09000B4611 /* genkai-mincho.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "genkai-mincho.ttf"; sourceTree = "<group>"; };
+		A032B29C209F6318000B4611 /* OrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
+		A032B29E209F6355000B4611 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A032B2A0209F6E3C000B4611 /* OrderListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewController.swift; sourceTree = "<group>"; };
+		A05466B720A1DB6C001B05BE /* TeaList.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TeaList.txt; sourceTree = "<group>"; };
+		A076A51920A49B4700D266E1 /* OrderListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListTableViewCell.swift; sourceTree = "<group>"; };
+		A08885D820A884E8007FA849 /* EditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +68,16 @@
 		A032B27F209F3BBA000B4611 /* DemoFreeDrinks */ = {
 			isa = PBXGroup;
 			children = (
+				A032B294209F3E09000B4611 /* genkai-mincho.ttf */,
+				A05466B720A1DB6C001B05BE /* TeaList.txt */,
+				A02498DC20A0B3A200FA01F6 /* OrderData.swift */,
 				A032B280209F3BBA000B4611 /* AppDelegate.swift */,
-				A032B282209F3BBA000B4611 /* ViewController.swift */,
 				A032B284209F3BBA000B4611 /* Main.storyboard */,
+				A08885D820A884E8007FA849 /* EditTableViewController.swift */,
+				A032B29E209F6355000B4611 /* MainViewController.swift */,
+				A032B29C209F6318000B4611 /* OrderTableViewController.swift */,
+				A032B2A0209F6E3C000B4611 /* OrderListViewController.swift */,
+				A076A51920A49B4700D266E1 /* OrderListTableViewCell.swift */,
 				A032B287209F3BBB000B4611 /* Assets.xcassets */,
 				A032B289209F3BBB000B4611 /* LaunchScreen.storyboard */,
 				A032B28C209F3BBB000B4611 /* Info.plist */,
@@ -122,9 +143,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A05466B820A1DB6C001B05BE /* TeaList.txt in Resources */,
 				A032B28B209F3BBB000B4611 /* LaunchScreen.storyboard in Resources */,
 				A032B288209F3BBB000B4611 /* Assets.xcassets in Resources */,
 				A032B286209F3BBA000B4611 /* Main.storyboard in Resources */,
+				A032B295209F3E09000B4611 /* genkai-mincho.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A032B283209F3BBA000B4611 /* ViewController.swift in Sources */,
+				A032B29F209F6355000B4611 /* MainViewController.swift in Sources */,
+				A032B29D209F6318000B4611 /* OrderTableViewController.swift in Sources */,
 				A032B281209F3BBA000B4611 /* AppDelegate.swift in Sources */,
+				A076A51A20A49B4700D266E1 /* OrderListTableViewCell.swift in Sources */,
+				A08885D920A884E8007FA849 /* EditTableViewController.swift in Sources */,
+				A02498DD20A0B3A300FA01F6 /* OrderData.swift in Sources */,
+				A032B2A1209F6E3C000B4611 /* OrderListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +309,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4GPCCYM3K;
 				INFOPLIST_FILE = DemoFreeDrinks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +327,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C4GPCCYM3K;
 				INFOPLIST_FILE = DemoFreeDrinks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
